@@ -1,5 +1,15 @@
 
-        /* Estilos generales */
+header {
+  /*display: flex;*/
+  justify-content: center;
+
+  align-items: center;
+  position: sticky; /* Fijar en la parte superior */
+  top: 0; /* Anclar en la parte superior */
+  width: 100%;
+  z-index: 10; 
+}
+       /*Estilos generales */
         body {
             margin: 0;
             padding: 0;
@@ -8,12 +18,15 @@
 
         /* Estilo para las secciones del contenido */
         main div {
+          /*padding-top: 30vh;*/
             width: 100%;
             height: 24rem;
             display: flex;
             justify-content: center;
             align-items: center;
             font-size: 2rem;
+            margin-top: 2rem; /* Espacio para el encabezado */
+            margin-bottom: 2rem;
         }
 
         /* Estilos para las diferentes secciones */
@@ -32,16 +45,17 @@
         /* Estilo para el pie de página */
         footer {
             width: 100%;
-            height: 7rem;
+            height: 6rem;
             background-color: #87CEEB; /* Rojo */
             /*color: #fff; /* Texto blanco */
             /*display: flex;*/
-            justify-content: center;
-            align-items: center;
-            position: fixed;
+            position: sticky;
+            z-index: 10;
             left: 0;
             bottom: 0;
             display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         /*///////// navegador /////////////////  */
@@ -54,7 +68,7 @@
         #menu ul li a:hover {
          color: hsl(0, 0%, 100%); /* Cambia el color al pasar el ratón por encima */
         }
-        .arrow {
+        /*.arrow {
             display: inline-block;
             width: 8px;
             height: 8px;
@@ -62,12 +76,12 @@
             border-right: 3px solid #ffffff;
             transform: rotate(45deg);
             margin-right: 5px;
-          }
+          }*/
           .first-letter {
             color: white;
           }      
           .botonavegador {
-            font-size: 17px; /* Ajusta el tamaño de fuente según tus preferencias */
+            font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
             font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
             display: flex;
@@ -77,7 +91,7 @@
           .list {
             padding: 2px;
             display: inline;
-            color:#d5f5f4;
+            /*color:#d5f5f4;*/
           }
 
          /********** menu lateral *********************************************
@@ -95,7 +109,7 @@
       /* Estilo para la navegación lateral */
       #side-menu {
           position: fixed;
-          top: 0;
+          top: 10;
           width: 240px;
           height: 100%;
           background-color: #333;
@@ -104,19 +118,19 @@
           flex-direction: column;
           gap: 10px;
           color: #fff;
-          transition: left 300ms;
+          transition: left 400ms;
       }
 
       /* Estilo para el botón de abrir */
       #open-menu-button {
-          font-size: 24px;
+          font-size: 20px;
           cursor: pointer;
           color: #333;
-          background-color: #fcbf49;
+          background-color: #87CEEB;
           padding: 5px 10px;
           border-radius: 5px;
           position: fixed;
-          top: 10px;
+          top: 140px;
           left: 10px;
           z-index: 100;
       }
@@ -136,20 +150,22 @@
       }
 
       #side-menu a:hover {
-          color: #fcbf49;
+          color: #87CEEB;
       }
 
       /************ carusel header *******/
 
       .carrusel {
+        background-color: #fff; /* Fondo blanco */
         height: 20vh;
         display: flex;
         align-items: center;
       }
       .carrusel-items {
+        top: 0;
         display: flex;
         overflow-x: hidden;
-        padding: 0px 0px;
+        /*padding: 0px 0px;*/
       }
       .carrusel-item {
         min-width: 200px;
@@ -162,3 +178,26 @@
         height: 100%;
         object-fit: cover;
       }
+
+     /* <div id="side-menu" class="hidden">
+      <div class="close-button" onclick="closeMenu()">&times;</div>
+       <a href="#">Inicio</a>
+       <a href="#">WhatsApp</a>
+       <a href="#">Facebook</a>
+       <a href="#">Yootub</a>
+       <a href="#">Contáctanos</a>
+      </div>
+    <!-- Botón para abrir el menú lateral -->
+    <div id="open-menu-button" onclick="openMenu()">&#9776;</div>
+    
+        <h1 class="botonavegador">Os sete derramamentos do sangue</h1>
+    
+    <li class="list"><a href ="#projeto"><span class="first-letter">I</span>dentidad</a></li>
+              <li class="list"><a href ="#registro"><span class="first-letter">P</span>roductividad</a></li>
+              <li class="list"><a href ="#formacao"><span class="first-letter">P</span>roposito</a></li>
+              <li class="list"><a href ="#formacao"><span class="first-letter">C</span>onsagração</a></li>
+
+
+
+    
+    */
