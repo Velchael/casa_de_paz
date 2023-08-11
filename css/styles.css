@@ -90,15 +90,19 @@ header {
           }
 
           .botonavegador2 {
-            font-size: 27px; /* Ajusta el tamaño de fuente según tus preferencias */
+            background-color: #fff;
+            font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
             font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 0 7px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+           /* padding: 0 7px;*/
           }
           .list {
+            font-size: 20px;
             padding: 2px;
             display: inline;
             /*color:#d5f5f4;*/
@@ -120,7 +124,7 @@ header {
       #side-menu {
           position: fixed;
           top: 10;
-          width: 240px;
+          width: 230px;
           height: 100%;
           background-color: #333;
           padding: 10px;
@@ -167,7 +171,7 @@ header {
 
       .carrusel {
         background-color: #fff; /* Fondo blanco */
-        height: 20vh;
+        height: 17vh;
         display: flex;
         align-items: center;
       }
@@ -178,9 +182,9 @@ header {
         /*padding: 0px 0px;*/
       }
       .carrusel-item {
-        min-width: 200px;
-        max-width: 200px;
-        height: 120px;
+        min-width: 250px;
+        max-width: 18px;
+        height: 110px;
        cursor: pointer;
       }
       .carrusel-item img {
