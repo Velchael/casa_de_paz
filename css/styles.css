@@ -91,12 +91,24 @@ header {
             color: white;
           }      
           .botonavegador {
+        
             font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
             font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-bottom: 0px;
+            
+          }
+          .botonavegador3 {
+            font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
+            font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0px;
           }
 
           .botonavegador2 {
