@@ -31,8 +31,18 @@ header {
 
         /* Estilos para las diferentes secciones */
         .section1 {
+          /*position:relativa;*/
+          /*position: sticky;*/
+          top: 0;
             background-color: #D3D3D3; /* Cielo */
         }
+        .section1-1 {
+          /*position:absolute;*/
+          min-width: 250px;
+          max-width: 18px;
+          height: 110px;
+        
+      }
 
         .section2 {
             background-color: #eff5de; /* Ámbar */
@@ -102,7 +112,7 @@ header {
            /* padding: 0 7px;*/
           }
           .list {
-            font-size: 20px;
+            font-size: 19px;
             padding: 2px;
             display: inline;
             /*color:#d5f5f4;*/
