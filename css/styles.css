@@ -1,239 +1,214 @@
-
 header {
-  /*display: flex;*/
-  justify-content: center;
+/*display: flex;*/
+justify-content: center;
 
-  align-items: center;
-  position: sticky; /* Fijar en la parte superior */
-  top: 0; /* Anclar en la parte superior */
-  width: 100%;
-  /*z-index: 10; */
+align-items: center;
+position: sticky; /* Fijar en la parte superior */
+top: 0; /* Anclar en la parte superior */
+width: 100%;
+/*z-index: 10; */
 }
-       /*Estilos generales */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        /* Estilo para las secciones del contenido */
-        main div {
-          /*padding-top: 30vh;*/
-            width: 100%;
-            height: 27rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 2rem;
-            margin-top: 1rem; /* Espacio para el encabezado */
-            margin-bottom: 1rem;
-        }
-
-        /* Estilos para las diferentes secciones */
-        .section1 {
-          /*position:relativa;*/
-          /*position: sticky;*/
-          top: 0;
-            background-color: #D3D3D3; /* Cielo */
-        }
-        .section1-1 {
-          /*position:absolute;*/
-          min-width: 250px;
-          max-width: 18px;
-          height: 110px;
-        
+     /*Estilos generales */
+      body {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
       }
 
-        .section2 {
-            background-color: #eff5de; /* Ámbar */
-        }
-
-        .section3 {
-            background-color: #fcf9c4; /* Rosa */
-        }
-
-        /* Estilo para el pie de página */
-        footer {
-            width: 100%;
-            height: 7rem;
-            background-color: #87CEEB; /* Rojo */
-            /*color: #fff; /* Texto blanco */
-            /*display: flex;*/
-            position: sticky;
-            /*z-index: 10;*/
-            left: 0;
-            bottom: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        /*///////// navegador /////////////////  */
-
-        #menu ul li a {
-            text-decoration: none;
-            color: #060606;
-            transition: color 0.3s;   
-          }  
-        #menu ul li a:hover {
-         color: hsl(0, 0%, 100%); /* Cambia el color al pasar el ratón por encima */
-        }
-        /*.arrow {
-            display: inline-block;
-            width: 8px;
-            height: 8px;
-            border-top: 4px solid #ffffff;
-            border-right: 3px solid #ffffff;
-            transform: rotate(45deg);
-            margin-right: 5px;
-          }*/
-          .first-letter {
-            color: white;
-          }      
-          .botonavegador {
-        
-            font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
-            font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 0px;
-            
-          }
-          .botonavegador3 {
-            font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
-            font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 0px;
-          }
-
-          .botonavegador2 {
-            background-color: #fff;
-            font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
-            font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 0px;
-            margin-top: 0px;
-           /* padding: 0 7px;*/
-          }
-          .list {
-            font-size: 17px;
-            padding: 2px;
-            display: inline;
-            /*color:#d5f5f4;*/
-          }
-
-         /********** menu lateral *********************************************
-
-           /* Clase para ocultar la navegación lateral */
-      .hidden {
-          left: -240px;
-      }
-
-      /* Clase para mostrar la navegación lateral */
-      .visible {
-          left: 0;
-      }
-
-      /* Estilo para la navegación lateral */
-      #side-menu {
-          position: fixed;
-          top: 10;
-          width: 230px;
-          height: 100%;
-          background-color: #333;
-          padding: 10px;
+      /* Estilo para las secciones del contenido */
+      main div {
+        /*padding-top: 30vh;*/
+          width: 100%;
+          height: 27rem;
           display: flex;
-          flex-direction: column;
-          gap: 10px;
-          color: #fff;
-          transition: left 400ms;
+          justify-content: center;
+          align-items: center;
+          font-size: 2rem;
+          margin-top: 1rem; /* Espacio para el encabezado */
+          margin-bottom: 1rem;
       }
 
-      /* Estilo para el botón de abrir */
-      #open-menu-button {
-          font-size: 20px;
-          cursor: pointer;
-          color: #333;
-          background-color: #87CEEB;
-          padding: 5px 10px;
-          border-radius: 5px;
-          position: fixed;
-          top: 140px;
-          left: 10px;
-          z-index: 100;
+      /* Estilos para las diferentes secciones */
+      .section1 {
+      
+          background-color: #D3D3D3; /* Cielo */
+          
+      }
+      
+      .section2 {
+     
+          background-color: #eff5de; /* Ámbar */
+      }
+      .section3 {
+          background-color: #fcf9c4; /* Rosa */
       }
 
-      /* Estilo para el botón de cerrar */
-      #side-menu .close-button {
-          text-align: right;
-          font-size: 24px;
-          cursor: pointer;
+      /* Estilo para el pie de página */
+      footer {
+          width: 100%;
+          height: 7rem;
+          background-color: #87CEEB; /* Rojo */
+          position: sticky;
+          /*z-index: 10;*/
+          left: 0;
+          bottom: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
       }
 
-      /* Estilos para los enlaces del menú */
-      #side-menu a {
-          color: #fff;
+      /*///////// navegador /////////////////  */
+
+      #menu ul li a {
           text-decoration: none;
-          transition: color 300ms;
+          color: #060606;
+          transition: color 0.3s;   
+        }  
+      #menu ul li a:hover {
+       color: hsl(0, 0%, 100%); /* Cambia el color al pasar el ratón por encima */
       }
+        .first-letter {
+          color: white;
+        }    
+        .carrusel-itemdos {
+          min-width: 350px;
+         /* max-width: 18px;*/
+          height: 250px;
+         cursor: pointer;
+        }
+        .botonavegador {
+          font-size: 30px; /* Ajusta el tamaño de fuente según tus preferencias */
+          font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
+          display: flex;
+          align-items: center; /* Centra horizontalmente*/ 
+          justify-content: center;
+          margin-bottom: 0px;
+          
+        }
+        .botonavegador3 {
+          font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
+          font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 0px;
+        }
 
-      #side-menu a:hover {
-          color: #87CEEB;
-      }
+        .botonavegador2 {
+          background-color: #fff;
+          font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
+          font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 0px;
+          margin-top: 0px;
+         /* padding: 0 7px;*/
+        }
+        .list {
+          font-size: 17px;
+          padding: 2px;
+          display: inline;
+          /*color:#d5f5f4;*/
+        }
 
-      /************ carusel header *******/
+       /********** menu lateral *********************************************
 
-      .carrusel {
-        background-color: #fff; /* Fondo blanco */
-        height: 17vh;
-        display: flex;
-        align-items: center;
-      }
-      .carrusel-items {
-        top: 0;
-        display: flex;
-        overflow-x: hidden;
-        /*padding: 0px 0px;*/
-      }
-      .carrusel-item {
-        min-width: 250px;
-        max-width: 18px;
-        height: 110px;
-       cursor: pointer;
-      }
-      .carrusel-item img {
-        width: 100%;
+         /* Clase para ocultar la navegación lateral */
+    .hidden {
+        left: -240px;
+    }
+
+    /* Clase para mostrar la navegación lateral */
+    .visible {
+        left: 0;
+    }
+
+    /* Estilo para la navegación lateral */
+    #side-menu {
+        position: fixed;
+        top: 10;
+        width: 230px;
         height: 100%;
-        object-fit: cover;
-      }
+        background-color: #333;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: #fff;
+        transition: left 400ms;
+    }
 
-     /* <div id="side-menu" class="hidden">
-      <div class="close-button" onclick="closeMenu()">&times;</div>
-       <a href="#">Inicio</a>
-       <a href="#">WhatsApp</a>
-       <a href="#">Facebook</a>
-       <a href="#">Yootub</a>
-       <a href="#">Contáctanos</a>
-      </div>
-    <!-- Botón para abrir el menú lateral -->
-    <div id="open-menu-button" onclick="openMenu()">&#9776;</div>
-    
-        <h1 class="botonavegador">Os sete derramamentos do sangue</h1>
-    
-    <li class="list"><a href ="#projeto"><span class="first-letter">I</span>dentidad</a></li>
-              <li class="list"><a href ="#registro"><span class="first-letter">P</span>roductividad</a></li>
-              <li class="list"><a href ="#formacao"><span class="first-letter">P</span>roposito</a></li>
-              <li class="list"><a href ="#formacao"><span class="first-letter">C</span>onsagração</a></li>
+    /* Estilo para el botón de abrir */
+    #open-menu-button {
+        font-size: 20px;
+        cursor: pointer;
+        color: #333;
+        background-color: #87CEEB;
+        padding: 5px 10px;
+        border-radius: 5px;
+        position: fixed;
+        top: 140px;
+        left: 10px;
+        z-index: 100;
+    }
+
+    /* Estilo para el botón de cerrar */
+    #side-menu .close-button {
+        text-align: right;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    /* Estilos para los enlaces del menú */
+    #side-menu a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 300ms;
+    }
+
+    #side-menu a:hover {
+        color: #87CEEB;
+    }
+
+    /************ carusel header *******/
+
+    .carrusel {
+      background-color: #fff; /* Fondo blanco */
+      height: 17vh;
+      display: flex;
+      align-items: center;
+    }
+    .carrusel-items {
+      top: 0;
+      display: flex;
+      overflow-x: hidden;
+      /*padding: 0px 0px;*/
+    }
+    .carrusel-item {
+      min-width: 250px;
+      max-width: 18px;
+      height: 110px;
+     cursor: pointer;
+    }
+    .carrusel-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
 
 
-    
-    */
+    /*.botonavegador {
+      font-size: 30px; /* Ajusta el tamaño de fuente según tus preferencias 
+      font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas 
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto 
+      display: flex;
+      align-items: center; /* Centra horizontalmente 
+      justify-content: center;
+      margin-bottom: 0px;
+      
+    }*/
