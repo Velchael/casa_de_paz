@@ -3,8 +3,8 @@ header {
 justify-content: center;
 
 align-items: center;
-position: sticky; /* Fijar en la parte superior */
-top: 0; /* Anclar en la parte superior */
+/*position: sticky; Fijar en la parte superior */
+top: 10; /* Anclar en la parte superior */
 width: 100%;
 /*z-index: 10; */
 }
@@ -30,16 +30,17 @@ width: 100%;
 
       /* Estilos para las diferentes secciones */
       .section1 {
-      
+        height: 650px;
           background-color: #D3D3D3; /* Cielo */
           
       }
-      
-      .section2 {
      
+      .section2 {
+        height: 650px;
           background-color: #eff5de; /* Ámbar */
       }
       .section3 {
+        height: 650px;
           background-color: #fcf9c4; /* Rosa */
       }
 
