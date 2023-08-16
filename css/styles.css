@@ -19,7 +19,7 @@ width: 100%;
       main div {
         /*padding-top: 30vh;*/
           width: 100%;
-          height: 27rem;
+          height: 14rem;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -116,6 +116,23 @@ width: 100%;
           /*color:#d5f5f4;*/
         }
 
+        .declare{
+
+         background-color: #fff;
+          font-size: 13px; /* Ajusta el tamaño de fuente según tus preferencias */
+          font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+         /* margin-bottom: 0px;
+          margin-top: 0px;*/
+          padding-left: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la izquierda */
+          padding-right: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la derecha */
+        }
+.foto2desender{
+  margin-top: 50px; 
+}
        /********** menu lateral *********************************************
 
          /* Clase para ocultar la navegación lateral */
@@ -200,16 +217,3 @@ width: 100%;
       height: 100%;
       object-fit: cover;
     }
-
-
-
-    /*.botonavegador {
-      font-size: 30px; /* Ajusta el tamaño de fuente según tus preferencias 
-      font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas 
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto 
-      display: flex;
-      align-items: center; /* Centra horizontalmente 
-      justify-content: center;
-      margin-bottom: 0px;
-      
-    }*/
