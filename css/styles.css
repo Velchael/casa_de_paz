@@ -4,7 +4,7 @@ justify-content: center;
 
 align-items: center;
 /*position: sticky; Fijar en la parte superior */
-top: 10; /* Anclar en la parte superior */
+top: 0; /* Anclar en la parte superior */
 width: 100%;
 /*z-index: 10; */
 }
@@ -30,7 +30,7 @@ width: 100%;
 
       /* Estilos para las diferentes secciones */
       .section1 {
-        height: 650px;
+        height: 600px;
           background-color: #D3D3D3; /* Cielo */
           
       }
@@ -72,12 +72,13 @@ width: 100%;
           color: white;
         }    
         .carrusel-itemdos {
-          min-width: 350px;
+          min-width: 330px;
          /* max-width: 18px;*/
           height: 250px;
          cursor: pointer;
         }
         .botonavegador {
+          margin-top: 15px;
           font-size: 30px; /* Ajusta el tamaño de fuente según tus preferencias */
           font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
@@ -85,6 +86,7 @@ width: 100%;
           align-items: center; /* Centra horizontalmente*/ 
           justify-content: center;
           margin-bottom: 0px;
+          margin-top: 0px;
           
         }
         .botonavegador3 {
@@ -95,10 +97,12 @@ width: 100%;
           justify-content: center;
           align-items: center;
           margin-bottom: 0px;
+          margin-top: 0px;
+          /*margin-bottom: 0px;*/
         }
 
         .botonavegador2 {
-          background-color: #fff;
+          /*background-color: #fff;*/
           font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
           font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
@@ -127,8 +131,8 @@ width: 100%;
           align-items: center;
          /* margin-bottom: 0px;
           margin-top: 0px;*/
-          padding-left: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la izquierda */
-          padding-right: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la derecha */
+          padding-left: 2%; /* Agrega un espacio del 5% del ancho de la pantalla a la izquierda */
+          padding-right: 2%; /* Agrega un espacio del 5% del ancho de la pantalla a la derecha */
         }
 .foto2desender{
   margin-top: 50px; 
@@ -195,8 +199,8 @@ width: 100%;
     /************ carusel header *******/
 
     .carrusel {
-      background-color: #fff; /* Fondo blanco */
-      height: 17vh;
+      background-color: #fff;  
+      height: 15vh;
       display: flex;
       align-items: center;
     }
