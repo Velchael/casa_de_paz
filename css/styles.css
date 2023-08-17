@@ -121,18 +121,27 @@ width: 100%;
         }
 
         .declare{
-
-         background-color: #fff;
+ 
           font-size: 13px; /* Ajusta el tamaño de fuente según tus preferencias */
           font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
-          display: inline-block;;
+          /* Centrar el texto, no necesita ser flex */
+          text-align: center;
+
+    /* Ajuste de márgenes y paddings */
+           margin: 0;  /* Esto elimina los márgenes superiores e inferiores */
+           padding: 1em 2%;  /* 1em es un espacio vertical basado en el tamaño de fuente y el 2% es el espacio horizontal */
+         
+           background-color: #fff;
+           display: inline-block; /* Cambiar el display para que el fondo se ajuste al contenido */
+           box-decoration-break: clone; /* Hacer que el fondo se rompa con los saltos de línea */
+           /*display: inline-block;
           justify-content: center;
           align-items: center;
           padding: 2px;
-          padding-left: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la izquierda */
-          padding-right: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la derecha */
-         /* margin-bottom: 0px;
+          padding-left: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la izquierda 
+          padding-right: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la derecha 
+         margin-bottom: 0px;
           margin-top: 0px;*/
           
         }
