@@ -36,11 +36,11 @@ width: 100%;
       }
      
       .section2 {
-        height: 650px;
+        height: 600px;
           background-color: #eff5de; /* Ámbar */
       }
       .section3 {
-        height: 650px;
+        height: 600px;
           background-color: #fcf9c4; /* Rosa */
       }
 
@@ -126,16 +126,19 @@ width: 100%;
           font-size: 13px; /* Ajusta el tamaño de fuente según tus preferencias */
           font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
-          display: flex;
+          display: inline-block;;
           justify-content: center;
           align-items: center;
+          padding: 2px;
+          padding-left: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la izquierda */
+          padding-right: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la derecha */
          /* margin-bottom: 0px;
           margin-top: 0px;*/
-          padding-left: 2%; /* Agrega un espacio del 5% del ancho de la pantalla a la izquierda */
-          padding-right: 2%; /* Agrega un espacio del 5% del ancho de la pantalla a la derecha */
+          
         }
+
 .foto2desender{
-  margin-top: 50px; 
+  margin-top: 25px; 
 }
        /********** menu lateral *********************************************
 
