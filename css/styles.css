@@ -161,15 +161,15 @@ width: 100%;
 
     /* Estilo para el botón de abrir */
     #open-menu-button {
-        font-size: 20px;
+        font-size: 16px;
         cursor: pointer;
         color: #333;
         background-color: #87CEEB;
-        padding: 5px 10px;
+        padding: 5px 5px;
         border-radius: 5px;
         position: fixed;
-        top: 140px;
-        left: 10px;
+        top: 100px;
+        left: 0px;
         z-index: 100;
     }
 
