@@ -30,18 +30,18 @@ width: 100%;
 
       /* Estilos para las diferentes secciones */
       .section1 {
-        height: 600px;
+        height: 620px;
           background-color: #D3D3D3; /* Cielo */
           
       }
      
       .section2 {
-        height: 600px;
+        height: 620px;
           background-color: #eff5de; /* Ámbar */
       }
       .section3 {
-        height: 600px;
-          background-color: #fcf9c4; /* Rosa */
+        height: 620px;
+          background-color:  #D3D3D3; /* Rosa */
       }
 
       /* Estilo para el pie de página */
@@ -74,20 +74,19 @@ width: 100%;
         .carrusel-itemdos {
           min-width: 330px;
          /* max-width: 18px;*/
-          height: 250px;
+          height: 220px;
          cursor: pointer;
         }
         .botonavegador {
-          margin-top: 15px;
+          margin-top: 30px;
           font-size: 30px; /* Ajusta el tamaño de fuente según tus preferencias */
           font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
           display: flex;
-          align-items: center; /* Centra horizontalmente*/ 
+          align-items: center;
           justify-content: center;
           margin-bottom: 0px;
           margin-top: 0px;
-          
         }
         .botonavegador3 {
           font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
@@ -98,7 +97,6 @@ width: 100%;
           align-items: center;
           margin-bottom: 0px;
           margin-top: 0px;
-          /*margin-bottom: 0px;*/
         }
 
         .botonavegador2 {
@@ -111,7 +109,6 @@ width: 100%;
           align-items: center;
           margin-bottom: 0px;
           margin-top: 0px;
-         /* padding: 0 7px;*/
         }
         .list {
           font-size: 17px;
@@ -121,33 +118,19 @@ width: 100%;
         }
 
         .declare{
- 
-          font-size: 13px; /* Ajusta el tamaño de fuente según tus preferencias */
+          font-size: 12px; /* Ajusta el tamaño de fuente según tus preferencias */
           font-weight: bold; /* Aplica un estilo de fuente en negrita si deseas */
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Agrega una sombra al texto */
-          /* Centrar el texto, no necesita ser flex */
           text-align: center;
-
-    /* Ajuste de márgenes y paddings */
            margin: 0;  /* Esto elimina los márgenes superiores e inferiores */
            padding: 1em 2%;  /* 1em es un espacio vertical basado en el tamaño de fuente y el 2% es el espacio horizontal */
-         
            background-color: #fff;
            display: inline-block; /* Cambiar el display para que el fondo se ajuste al contenido */
            box-decoration-break: clone; /* Hacer que el fondo se rompa con los saltos de línea */
-           /*display: inline-block;
-          justify-content: center;
-          align-items: center;
-          padding: 2px;
-          padding-left: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la izquierda 
-          padding-right: 3%; /* Agrega un espacio del 5% del ancho de la pantalla a la derecha 
-         margin-bottom: 0px;
-          margin-top: 0px;*/
-          
         }
 
 .foto2desender{
-  margin-top: 25px; 
+  margin-top: 20px; 
 }
        /********** menu lateral *********************************************
 
