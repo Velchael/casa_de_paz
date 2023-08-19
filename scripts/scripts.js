@@ -107,3 +107,10 @@ window.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    function goHomedos() {
+      const headerElement = document.querySelector('.headerdos');
+      if (headerElement) {
+          headerElement.scrollIntoView({ behavior: 'smooth' });
+      }
+  }
+
