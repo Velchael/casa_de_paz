@@ -83,3 +83,27 @@ window.addEventListener('DOMContentLoaded', function() {
       }
       });
       });
+
+      
+    window.addEventListener('DOMContentLoaded', function() {
+      var inicioLink = document.querySelector('a[href="#inicio"]');
+      var inicioElement = document.querySelector('#inicio');
+      
+      inicioLink.addEventListener('click', function(event) {
+      event.preventDefault(); // Evita el comportamiento predeterminado del enlace
+      
+      if (inicioElement) {
+      inicioElement.scrollIntoView();
+      }
+      });
+      });
+
+      //////////////////boton home
+
+      function goHome() {
+        const headerElement = document.querySelector('.headerdos');
+        if (headerElement) {
+            headerElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
