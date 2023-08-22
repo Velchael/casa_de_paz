@@ -99,6 +99,7 @@ window.addEventListener('DOMContentLoaded', function() {
       });
 
       //////////////////boton home
+      document.getElementById('home-button').addEventListener('click', goHome);
 
       function goHome() {
         const headerElement = document.querySelector('.headerdos');
