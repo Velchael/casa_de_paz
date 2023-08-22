@@ -97,6 +97,7 @@ header {
             align-items: center;
             margin-bottom: 0px;
             margin-top: 0px;
+            padding: 10px; 
           }
   
           .botonavegador2 {
@@ -223,3 +224,7 @@ header {
         margin-top: 10px; /* Ajusta el valor según tu preferencia */
        
     }
+    .home-symbol {
+      font-size: 24px; /* Ajusta el tamaño de fuente según tus preferencias */
+      margin-right: 5px; /* Ajusta el espaciado a la derecha según tus preferencias */
+  }

@@ -86,14 +86,14 @@ window.addEventListener('DOMContentLoaded', function() {
 
       
     window.addEventListener('DOMContentLoaded', function() {
-      var inicioLink = document.querySelector('a[href="#inicio"]');
-      var inicioElement = document.querySelector('#inicio');
+      var headerdosLink = document.querySelector('a[href="#headerdos"]');
+      var headerdosElement = document.querySelector('#headerdos');
       
-      inicioLink.addEventListener('click', function(event) {
+      headerdosLink.addEventListener('click', function(event) {
       event.preventDefault(); // Evita el comportamiento predeterminado del enlace
       
-      if (inicioElement) {
-      inicioElement.scrollIntoView();
+      if (headerdosElement) {
+        headerdosElement.scrollIntoView();
       }
       });
       });
@@ -115,3 +115,4 @@ window.addEventListener('DOMContentLoaded', function() {
       }
   }
 
+////<li class="list"><a href ="#headerdos"><span class="first-letter">I</span>nicio</a></li>
