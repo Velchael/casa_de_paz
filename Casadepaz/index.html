@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +7,17 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Casa de paz</title>
 </head>
-
 <body>
+<!-- Botón para mostrar el popup -->
+<div id="popupModal" class="modal">
+    <div class="modal-content">
+        <h2>Este es un popup</h2>
+        <p>¡Haz clic en el botón para ir a la página de inicio de sesión o Registrase!</p>
+        <button id="loginButton">Faça Login ou Registrarse</button>
+    </div>
+</div>
     <div>
         <header class="headerdos"> 
-          <!-- Carrusel de imagenes----------- -->
-        
           <div class="carrusel">
             <div class="carrusel-items">
               <div class="carrusel-item">  
@@ -50,7 +54,7 @@
           <a href="https://wa.me/5511981868794">WhatsApp</a>
           <a href="https://web.facebook.com/profile.php?id=100004807065957">Facebook</a>
           <a href="https://youtube.com/channel/UCA6X6RulyTFCU32odRUqIXA">You Tube</a>
-          <a href="#">Contáctanos...</a>
+          <a href="inicio-sesion.html">Registro</a>
           <a href="#">Comunidade... </a>     
           </div>
         <!-- Botón para abrir el menú lateral -->
@@ -92,7 +96,6 @@
               </div>
               <p class="declare">Por quanto você derramou seu sangue Senhor Jesus Cristo pela coroa de espinhos bendita é a terra por sua causa</p>
             </article>
-         
             <article id="identidad"class="section2">
               <p class="botonavegador">
                 Sangue da Identidade
@@ -143,7 +146,6 @@
             </article>
         </main>
         <footer>
-          
             <nav id="menu">
               <h1 class="botonavegador3">Os sete derramamentos do sangue</h1>
              <ul style="color:#060606">   
@@ -154,12 +156,11 @@
               <li class="list"><a href ="#productividad"><span class="first-letter">P</span>roductividad</a></li>
               <li class="list"><a href ="#proposito"><span class="first-letter">P</span>roposito</a></li>
               <li class="list"><a href ="#consagracao"><span class="first-letter">C</span>onsagração</a></li>
-              <li class="list"><a href="#" onclick="goHome(); closeMenu();"><span class="home-symbol">&#8962;</span>◄</a></li>
+              <li class="list"><a href="#" onclick="goHome(); closeMenu();"><span class="home-symbol">&#8962;</span></a></li>
              </ul>
             </nav> 
         </footer>
     </div>
-    <script src="scripts/scripts.js">
-  </script>
+    <script src="./scripts/scripts.js"></script>
 </body>
 </html>

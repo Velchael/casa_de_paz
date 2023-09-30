@@ -1,8 +1,28 @@
 
-/********Meenu lateral ******************** */
+//document.addEventListener("DOMContentLoaded", function () {
+  ///setTimeout(function () {
+ // document.getElementById("popup").style.display = "block";
+//}, 30000); // Muestra el popup después de 30 segundos (30000 ms)
 
+ //document.getElementById("loginButton").addEventListener("click", function () {
+  // Redirige al usuario a la página de inicio de sesión (reemplaza "/inicio-sesion" con la URL de tu página de inicio de sesión)
+  //document.getElementById("popup").style.display = "none";
+ //  window.location.href ="/inicio-sesion.html";
+//});
+//});
+
+  document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+    document.getElementById("popupModal").style.display = "block";
+     }, 30000);
+    document.getElementById("loginButton").addEventListener("click", function () {
+            // Reemplaza "/inicio-sesion.html" con la URL de tu página de inicio de sesión
+            window.location.href = "./inicio-sesion.html";
+        });
+    });
+  
+/********Meenu lateral ******************** */
 var sideMenu = document.getElementById('side-menu');
-      
 function openMenu() {
     sideMenu.classList.remove('hidden');
     sideMenu.classList.add('visible');
@@ -12,9 +32,7 @@ function closeMenu() {
     sideMenu.classList.remove('visible');
     sideMenu.classList.add('hidden');
 }
-
 /**********Carrusel automatico */
-
 const carrusel = document.querySelector(".carrusel-items");
 let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
 let intervalo = null;
@@ -48,7 +66,6 @@ start();
 window.addEventListener('DOMContentLoaded', function() {
   var fidelidadeLink = document.querySelector('a[href="#fidelidade"]');
   var fidelidadeElement = document.querySelector('#fidelidade');
-  
   fidelidadeLink.addEventListener('click', function(event) {
   event.preventDefault(); // Evita el comportamiento predeterminado del enlace
   
@@ -61,7 +78,6 @@ window.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('DOMContentLoaded', function() {
     var redencaoLink = document.querySelector('a[href="#redencao"]');
     var redencaoElement = document.querySelector('#redencao');
-    
     redencaoLink.addEventListener('click', function(event) {
     event.preventDefault(); // Evita el comportamiento predeterminado del enlace
     
@@ -74,7 +90,6 @@ window.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('DOMContentLoaded', function() {
       var conquistaLink = document.querySelector('a[href="#conquista"]');
       var conquistaElement = document.querySelector('#conquista');
-      
       conquistaLink.addEventListener('click', function(event) {
       event.preventDefault(); // Evita el comportamiento predeterminado del enlace
       
@@ -83,23 +98,6 @@ window.addEventListener('DOMContentLoaded', function() {
       }
       });
       });
-
-      
-    window.addEventListener('DOMContentLoaded', function() {
-      var headerdosLink = document.querySelector('a[href="#headerdos"]');
-      var headerdosElement = document.querySelector('#headerdos');
-      
-      headerdosLink.addEventListener('click', function(event) {
-      event.preventDefault(); // Evita el comportamiento predeterminado del enlace
-      
-      if (headerdosElement) {
-        headerdosElement.scrollIntoView();
-      }
-      });
-      });
-
-      //////////////////boton home
-      document.getElementById('home-button').addEventListener('click', goHome);
 
       function goHome() {
         const headerElement = document.querySelector('.headerdos');
@@ -115,4 +113,4 @@ window.addEventListener('DOMContentLoaded', function() {
       }
   }
 
-////<li class="list"><a href ="#headerdos"><span class="first-letter">I</span>nicio</a></li>
+ 
